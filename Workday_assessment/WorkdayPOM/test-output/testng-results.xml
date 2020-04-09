@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[in the before suite]]>
+    </line>
+    <line>
+      <![CDATA[settings done]]>
+    </line>
+    <line>
+      <![CDATA[CONFIG LOAD PROPERTIIES]]>
+    </line>
+    <line>
+      <![CDATA[Report generated with screenshot]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34286" started-at="2020-04-09T07:16:58Z" finished-at="2020-04-09T07:17:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34286" started-at="2020-04-09T07:16:58Z" finished-at="2020-04-09T07:17:33Z">
+      <class name="TestCases.LoginPageTest">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:TestCases.LoginPageTest@77caeb3e]" name="beforesuite" is-config="true" duration-ms="186" started-at="2020-04-09T12:46:58Z" finished-at="2020-04-09T12:46:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[in the before suite]]>
+            </line>
+            <line>
+              <![CDATA[settings done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestCases.LoginPageTest@77caeb3e]" name="beforeTest" is-config="true" duration-ms="10320" started-at="2020-04-09T12:46:58Z" finished-at="2020-04-09T12:47:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[CONFIG LOAD PROPERTIIES]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyLoginFunctionality()[pri:0, instance:TestCases.LoginPageTest@77caeb3e]" name="verifyLoginFunctionality" duration-ms="22178" started-at="2020-04-09T12:47:09Z" finished-at="2020-04-09T12:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@77caeb3e]" name="aftermethod" is-config="true" duration-ms="1122" started-at="2020-04-09T12:47:31Z" finished-at="2020-04-09T12:47:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginFunctionality status=SUCCESS method=LoginPageTest.verifyLoginFunctionality()[pri:0, instance:TestCases.LoginPageTest@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Report generated with screenshot]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestCases.LoginPageTest@77caeb3e]" name="afterTest" is-config="true" duration-ms="648" started-at="2020-04-09T12:47:32Z" finished-at="2020-04-09T12:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestCases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
