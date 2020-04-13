@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Driver {
+public class StartDriver {
 	static WebDriver driver=null;
 	public void startDriver(String browser) {
 	
@@ -41,7 +41,7 @@ public class Driver {
 	}
 
 	public static void setDriver(WebDriver driver) {
-		Driver.driver = driver;
+		StartDriver.driver = driver;
 	}
 
 

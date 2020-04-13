@@ -19,11 +19,11 @@ import PageFunctions.LoginPageFunctions;
 import PageFunctions.PersonalDetailsFunctions;
 import PageFunctions.PersonalInformationFunctions;
 import common.ConfigManager;
-import common.Driver;
+import common.StartDriver;
 import common.DriverFun;
 
 public class BaseTestCase {
-	Driver s;
+	StartDriver s;
 	static DriverFun driverFun;
 	public ExtentReports report;
 	public ExtentTest logger;
@@ -62,7 +62,7 @@ public class BaseTestCase {
 			e.printStackTrace();
 		}
 		String browser = ConfigManager.getProp().getProperty("browser");
-		s = new Driver();
+		s = new StartDriver();
 		s.startDriver(browser);
 		s.getDriver();
 		driverFun = new DriverFun(s.getDriver());
