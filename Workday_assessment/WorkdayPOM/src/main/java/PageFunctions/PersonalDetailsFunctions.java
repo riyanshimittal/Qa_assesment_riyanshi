@@ -43,13 +43,7 @@ public class PersonalDetailsFunctions {
 			driverFunc.click(save);
         }
 	}
-	  /*	public void EnterComment(String text) throws InterruptedException {
-	   * driverFunc.scroll(textarea);
-     		 driverFunc.enterValues(textarea, text);
-     		// driverFunc.click(save);
-	  		
-	  	}
-*/
+
 		public boolean isTitleMatched() {
 			
 			if(TitleName.getText().equalsIgnoreCase("Riyanshi Mittal")) {
