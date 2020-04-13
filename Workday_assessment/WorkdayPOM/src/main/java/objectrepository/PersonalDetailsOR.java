@@ -13,7 +13,7 @@ public class PersonalDetailsOR {
 	
 }
 	 //home of work-day
-	 @FindBy(xpath ="//div[@title='Mansi Sharma']")
+	 @FindBy(xpath ="//div[@title='Riyanshi Mittal']")
 	  protected WebElement TitleName;
 	 
 	 //textarea
@@ -25,7 +25,7 @@ public class PersonalDetailsOR {
 	 @FindBy(xpath="//button[@title='Save for Later']")
 	 protected WebElement save;
 	 
-	 @FindBy(xpath="//div[@title='Personal Information Change: Mansi Sharma (41788MS)']")
+	 @FindBy(xpath="//div[@title='Personal Information Change: Riyanshi Mittal (41787RM)']")
 	 protected WebElement link1;
 	 
 	 @FindBy(xpath="//button[@title='Revise']")
